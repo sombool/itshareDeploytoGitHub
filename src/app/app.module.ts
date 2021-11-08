@@ -13,6 +13,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ShoopingCartComponent } from './shooping-cart/shooping-cart.component';
 import { LoginComponent } from './login/login.component';
 
+import { AngularFireModule } from "angularfire2";
+import { AngularFireDatabase, AngularFireDatabaseModule} from "angularfire2/database";
+import { environment } from 'src/environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,9 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    AngularFireDatabaseModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
