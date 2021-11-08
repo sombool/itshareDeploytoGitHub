@@ -6,17 +6,28 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 import { ProductsComponent } from './products/products.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
+import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ShoopingCartComponent } from './shooping-cart/shooping-cart.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-
-    ProductsComponent
+    ProductsComponent,
+     MyOrdersComponent,
+     AdminProductsComponent,
+     AdminOrdersComponent,
+     ShoopingCartComponent,
+     LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
