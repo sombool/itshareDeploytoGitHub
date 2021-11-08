@@ -13,7 +13,7 @@ const routes:Routes=[
   {path: 'admin/orders', component :AdminOrdersComponent},
   {path: 'admin/products', component :ProductsComponent},
   {path: 'shooping-cart', component :ShoopingCartComponent},
-  {path: 'Login', component :LoginComponent}
+  {path: 'login', component :LoginComponent}
 ]
 
 @NgModule({
