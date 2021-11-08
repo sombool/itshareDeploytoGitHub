@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/itshareshop",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
