@@ -14,7 +14,7 @@ import { ShoopingCartComponent } from './shooping-cart/shooping-cart.component';
 import { LoginComponent } from './login/login.component';
 
 import { AngularFireModule } from "angularfire2";
-import { AngularFireDatabase, AngularFireDatabaseModule} from "angularfire2/database";
+import { AngularFireDatabaseModule} from "angularfire2/database";
 import { environment } from 'src/environments/environment';
 @NgModule({
   declarations: [
